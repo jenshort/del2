@@ -1,14 +1,10 @@
 #Del^2 (DeleteDelimiters)
-[Github](https://github.com/short2jw/del2)
-
 This script removes "|<letter>" delimited subfields from text strings.  The intended use is to remove specific subfields from MARC tagged data.
 
 ##Requirements
-PHP>=5.4.0 
-
-PHP extension:  ext-mbstring	(enable in php.ini)
-
-[Composer](http://getcomposer.org)
+* PHP>=5.4.0 
+* PHP extension:  ext-mbstring	(enable in php.ini)
+* [Composer](http://getcomposer.org)
 
 ##Installation
 Download the zip file or clone the repo to your local machine.  Run `composer install` from the project directory to download and install the dependencies.
