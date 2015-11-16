@@ -1,5 +1,5 @@
 #Del^2 (DeleteDelimiters)
-This script removes "|<letter>" delimited subfields from text strings.  The intended use is to remove specific subfields from MARC tagged data.
+This script removes "|\<letter\>" delimited subfields from text strings.  The intended use is to remove specific subfields from MARC tagged data.
 
 ##Requirements
 * PHP>=5.4.0 
