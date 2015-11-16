@@ -1,5 +1,9 @@
 <?php
 /* 
+Del^2 (DeleteDelimiters) - short2jw@jmu.edu
+This script removes "|<letter>" delimited subfields from text strings.  The intended
+use is to remove specific subfields from MARC tagged data.
+
 CLI usage (requires that PHP be in your PATH):
 php del2.php <input filename> <output filename> <delimiter letter to remove> 
 
@@ -8,7 +12,7 @@ Future development may allow for multiple delimiters in a single script-run, but
 needs to be run once for each delimiter to be removed.
 
 Input/output files can be any filetype that is delimited text (.txt, .csv being the primary two).  
-You can change the delimiter character below.
+You can change the text file delimiter character below.  
 */
 
 
@@ -22,12 +26,9 @@ require_once('./vendor/autoload.php');
 use League\Csv\Reader as Reader;
 use League\Csv\Writer as Writer;
 
-
-
 $inputfilename = $argv[1];
 $outputfilename = $argv[2];
 $delimiter = $argv[3];
-// $removePunctuation = $argv[4];	// doesn't currently do anything
 
 $reader = Reader::createFromPath($inputfilename);
 $writer = Writer::createFromPath($outputfilename, 'w');
@@ -43,21 +44,16 @@ $writer->setDelimiter("\t");
 
 $count = 0;
 foreach($reader->fetch() as $row) {
-//	var_dump($row);
+
 	$marc = $row[0];
 	$marc = $marc . '|';	// hack to add a delimiter to end of string
 
 	$pattern = "/\|" . $delimiter . ".*(?=[\|])/";
 	$newMarc = preg_replace($pattern, '', $marc);
-	$cleanMarc = preg_replace('/\|$/', '', $newMarc);
+	$cleanMarc = preg_replace('/\|$/', '', $newMarc);	// removes the end-of-string delimiter from above "hack"
 
-	if(array_key_exists(1, $row)) {
-		$rec = $row[1];
-	} else {
-		$rec = '';
-	}
-
-	$newLine = array($cleanMarc, $rec);
+	$newLine = $row;
+	$newLine[0] = $cleanMarc;
 
 	$writer->insertOne($newLine);
 	$count++;
