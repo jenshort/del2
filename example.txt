@@ -1,0 +1,20 @@
+"|aGabrieli, Andrea,|dapproximately 1533-1585.|tAngelus ad pastores|hsound recording"	1193481
+"|aGabrieli, Andrea,|dapproximately 1533-1585.|tMissa, Pater peccavi|hsound recording"	1193481
+"|aMozart, Wolfgang Amadeus,|d1756-1791.|tRegina Coeli,|nK. 127|hSound recording"	1243077
+"|aMozart, Wolfgang Amadeus,|d1756-1791.|tErgo interest|hSound recording"	1243077
+"|aMozart, Wolfgang Amadeus,|d1756-1791.|tRegina Coeli,|nK. 108|hSound recording"	1243077
+"|aMozart, Wolfgang Amadeus,|d1756-1791.|tExsultate, jubilate|hSound recording"	1243077
+"|aKodály, Zoltán,|d1882-1967.|kSelections.|tBicinia hungarica|hSound recording"	1234633
+"|aJosquin,|cdes Prez,|d-1521.|tMissa Hercules dux Ferrariae|hSound recording"	1240402
+"|aCharpentier, Marc Antoine,|d1643-1704.|tMagnificats,|nH. 73|hSound recording"	1241885
+"|aRavel, Maurice,|d1875-1937.|tMa mère l'oye (Ballet)|hSound recording.|f1959"	1326110
+"|aSaint-Saëns, Camille,|d1835-1921.|tRouet d'Omphale.|hSound recording.|f1959"	1326110
+"|aDukas, Paul,|d1865-1935.|tApprenti sorcier.|hSound recording.|f1959"	1326110
+"|aWyatt, Scott A.|tTime mark.|hSound recording.|f1989"	1295303
+"|aWyatt, Scott A.|tVignettes.|hSound recording.|f1989"	1295303
+"|aWyatt, Scott A.|tFour for flute.|hSound recording.|f1989"	1295303
+"|aWyatt, Scott A.|tReal illusion.|hSound recording.|f1989"	1295303
+"|aWyatt, Scott A.|tSoundets.|hSound recording.|f1989"	1295303
+"|aLifchitz, Max,|d1948-|tExceptional string quartet.|f1985.|hSound recording"	1235696
+"|aLifchitz, Max,|d1948-|tConsorte.|f1985.|hSound recording"	1235696
+"|aLifchitz, Max,|d1948-|tWinter counterpoint.|f1985.|hSound recording"	1235696

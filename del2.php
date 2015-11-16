@@ -13,6 +13,9 @@ needs to be run once for each delimiter to be removed.
 
 Input/output files can be any filetype that is delimited text (.txt, .csv being the primary two).  
 You can change the text file delimiter character below.  
+
+Input text files should be formatted such that the MARC data that you wish to alter is 
+in the first field.  Any fields coming afterward will be preserved as-is.
 */
 
 

@@ -18,3 +18,5 @@ Note: if the directory containing the php executable is not in your path, you wi
 None of the arguments need to be surrounded by quotes unless they have a space in them.  Future development may allow for multiple delimiters in a single script-run, but for now it needs to be run once for each delimiter to be removed.
 
 Input/output files can be any filetype that is delimited text (.txt, .csv being the primary two). You can change the text file delimiter character in the script if needed.  It defaults to the tab character.
+
+Input text files should be formatted such that the MARC data that you wish to alter is in the first field.  Any fields coming afterward will be preserved as-is.  See example.txt for a sample.
